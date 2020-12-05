@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <title>Stop_Watch</title>
+  </head>
+  <body>
+
+<div class="container">
+      <article class="stopwatch stopwatch--interval">
+        <h1>
+          <span id="minutes">00</span>:<span id="seconds">00</span>
+        </h1>
+        <section class="controls">
+          <button class="control controls__start" id="start">
+            Start
+          </button>
+          <button class="control controls__reset" id="reset">
+            Reset
+          </button>
+          <button class="control controls__stop" id="pause">
+            Stop
+          </button>
+          <button class="control controls__count" id="count">
+            TimeCount
+          </button>
+        </section>
+      </article>
+
+     
+      <div class="row">
+          <table id="table_area">
+          <tbody id="tr_area" class="font-weight-bold text-dark ">
+
+          </tbody>
+        </table>
+      </div>
+      
+    </div>
+  </body>
+
+
+
+
+  
+
+
+
+    <!-- Script -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./code.js"></script>
+  </body>
+</html>
